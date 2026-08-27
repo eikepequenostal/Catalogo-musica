@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    color: black;
+}
+
+
+
+
+.IN,
+.G {
+    text-align: center;
+    padding: 30px;
+    background-color: #1d1c1c;
+    background: 1d1c1c;
+    height: 75px;
+    margin-bottom: 70px;
+    color: #ddd;
+    position: sticky;
+    top: 0;
+    
+}
+
+.principal{
+    text-align: center;
+}
+
+
+.IN h1,
+.G h1 {
+    margin: 0;
+    color: red;
+}
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.instrumento {
+    text-align: center;
+}
+
+
+
+.instrumento img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.instrumento button {
+    padding: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+
+
+.instrumento button:hover {
+    border-color: red;
+}
+
+.instrumento:hover h1 {
+    color: red;
+}
+
+
+
+
+.marca {
+    margin-bottom: 50px;
+}
+
+
+
+
+.logo-marca {
+    text-align: center;
+    margin: 20px;
+}
+
+.logo-marca img {
+    width: 200px;
+}
+
+
+
+.container-G {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    width: 300px;
+    text-align: center;
+}
+
+
+
+.produto img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.produto button {
+    padding: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+
+
+
+.produto button:hover {
+    border-color: red
+}
+
+.produto:hover h1 {
+    color: red;
+    transition: color 0.4s;
+
+
+}
+
+
+
+
+@media(max-width: 700px) {
+
+    .instrumento img,
+    .produto img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .produto {
+        width: 250px;
+    }
+}
+
+footer {
+    margin-top: 80px;
+    padding: 40px 20px;
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+footer h2 {
+    margin: 0 0 15px;
+    color: red;
+}
+
+footer p {
+    margin: 8px 0;
+    color: #ccc;
+}
+
+.footer-links {
+    margin: 20px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: red;
+}
